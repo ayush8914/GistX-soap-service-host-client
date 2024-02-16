@@ -93,6 +93,7 @@
     <Content Include="bootstrap\js\popper.min.js" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
+    <Content Include="SignIn.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GistMasterPage.Master.cs">
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
