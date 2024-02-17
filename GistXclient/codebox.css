@@ -1,0 +1,16 @@
+﻿/* Example styles for the menubar and toolbar */
+.mce-menubar {
+    background-color: #333; /* Change to your preferred background color */
+    color: forestgreen; /* Change to your preferred text color */
+}
+
+.mce-toolbar-grp, .mce-btn {
+    color: forestgreen; /* Change to your preferred text color */
+}
+
+    .mce-btn button {
+        background-color: #555; /* Change to your preferred button background color */
+        color: #fff; /* Change to your preferred button text color */
+    }
+
+/* Additional styles as needed */

@@ -110,21 +110,25 @@ color: white;
                         <a class="nav-link" href="Home.aspx">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="About.aspx">New Gist</a>
+                        <a class="nav-link" href="NewGist.aspx">New Gist</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="About.aspx">My Gists</a>
                     </li>
                    
-</ul>
+</ul>           
                 <ul class="navbar-nav li-custom">
-                     <li class="nav-item ">
-                        <a class="nav-link login" href="SignIn.aspx">Sign in</a>
-                    </li>
-                     <li class="nav-item ">
-                        <a class="nav-link login" href="Contact.aspx">Sign up</a>
-                    </li>
-                </ul>
+    <li class="nav-item" runat="server" id="signInItem">
+        <a class="nav-link login" href="SignIn.aspx">Sign in</a>
+    </li>
+    <li class="nav-item" runat="server" id="signUpItem">
+        <a class="nav-link login" href="SignUp.aspx">Sign up</a>
+    </li>
+    <li class="nav-item" runat="server" id="logoutItem" visible="false">
+        <asp:Button ID="logoutButton" runat="server" CssClass="btn btn-danger" Text="Logout" OnClick="logoutButton_Click" />
+    </li>
+</ul>
+
 </div>
         </nav>
          <hr class="border-custom">

@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\GistXservices\demoClient1\bin\Debug\demoClient1.exe.config
+C:\Users\admin\source\repos\GistXservices\demoClient1\bin\Debug\demoClient1.exe
+C:\Users\admin\source\repos\GistXservices\demoClient1\bin\Debug\demoClient1.pdb
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.Form1.resources
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.Properties.Resources.resources
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.exe
+C:\Users\admin\source\repos\GistXservices\demoClient1\obj\Debug\demoClient1.pdb

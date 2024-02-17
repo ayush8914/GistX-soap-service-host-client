@@ -1,11 +1,13 @@
 C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXHost.exe.config
 C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXHost.exe
 C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXHost.pdb
-C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXservices.dll
 C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\EntityFramework.dll
+C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXservices.dll
+C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\EntityFramework.xml
+C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXservices.pdb
 C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\GistXservices.dll.config
-C:\Users\admin\source\repos\GistXservices\GistXHost\bin\Debug\EntityFramework.xml
 C:\Users\admin\source\repos\GistXservices\GistXHost\obj\Debug\GistXHost.csproj.AssemblyReference.cache
 C:\Users\admin\source\repos\GistXservices\GistXHost\obj\Debug\GistXHost.csproj.SuggestedBindingRedirects.cache
 C:\Users\admin\source\repos\GistXservices\GistXHost\obj\Debug\GistXHost.Form1.resources

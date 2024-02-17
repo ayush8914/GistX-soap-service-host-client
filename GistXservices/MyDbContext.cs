@@ -9,7 +9,7 @@ namespace GistXservices
 {
     public class MyDbContext : DbContext
     {
-      
+       
         public DbSet<Gist> Gists { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Fork> Forks { get; set; }

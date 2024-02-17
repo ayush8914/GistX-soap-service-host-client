@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,16 +9,19 @@ using System.Threading.Tasks;
 
 namespace GistXservices
 {
+    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     public class AuthService : IService
     {
         public ResponseContract Register(string username, string email, string password)
         {
             if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
+
                 return new ResponseContract
                 {
                     status = 0,
-                    message = "All fields are required"
+                    message = "All fields are required",
+                    id = 0
                 };
             }
 
@@ -26,7 +30,8 @@ namespace GistXservices
                 return new ResponseContract
                 {
                     status = 0,
-                    message = "Username must be at least 3 characters"
+                    message = "Username must be at least 3 characters",
+                    id = 0
                 };
             }
 
@@ -35,10 +40,12 @@ namespace GistXservices
                 return new ResponseContract
                 {
                     status = 0,
-                    message = "Password must be at least 8 characters"
+                    message = "Password must be at least 8 characters",
+                    id = 0
                 };
             }
 
+            User user1;
             using (var context = new MyDbContext())
             {
                 var user = context.Users.FirstOrDefault(u => u.Username == username);
@@ -47,7 +54,8 @@ namespace GistXservices
                     return new ResponseContract
                     {
                         status = 0,
-                        message = "Username already exists"
+                        message = "Username already exists",
+                        id = 0
                     };
                 }
 
@@ -57,11 +65,12 @@ namespace GistXservices
                     return new ResponseContract
                     {
                         status = 0,
-                        message = "Email already exists"
+                        message = "Email already exists",
+                        id = 0
                     };
                 }
-                
-                user = new User
+
+                 user1 = new User
                 {
                     Username = username,
                     Email = email,
@@ -69,15 +78,17 @@ namespace GistXservices
                     CreatedAt = DateTime.Now
                 };
 
-                context.Users.Add(user);
+                context.Users.Add(user1);
                 context.SaveChanges();
 
             }
-
+                
+           
             return new ResponseContract
             {
                 status = 1,
-                message = "User registered successfully"
+                message = "User registered successfully",
+                id = user1.Id
             };
         }
 
@@ -106,7 +117,9 @@ namespace GistXservices
                 return new ResponseContract
                 {
                     status = 1,
-                    message = "Login successful"
+                    message = "Login successful",
+                    id = user.Id
+
                 };
             }
         }   

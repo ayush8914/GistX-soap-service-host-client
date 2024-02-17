@@ -27,5 +27,8 @@ namespace GistXservices
         [DataMember(Order =2)]
         public string message;
 
+        [DataMember(Order =3)]
+        public int id;
+
     }
 }

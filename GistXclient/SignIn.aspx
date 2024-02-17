@@ -99,7 +99,7 @@ height:30px;
 background-color: #010409;
 border: 1px solid blue;
 border-radius: 5px;
-
+color : #fff;   
 }
 
 .label1-custom{
@@ -107,9 +107,7 @@ font-size : 14px;
     margin-right : 200px;
 }
 
-
     </style>
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div class="container">
@@ -120,7 +118,7 @@ font-size : 14px;
     <h5 class="mt-4">Sign in to GitsX</h5>
     <div class="card">
         
-        <form>
+       
             <div class="form-group">
                 <label class="label-custom" for="username">Username or email address</label>
                 <input type="text" class="form-control" id="username" name="username" required>
@@ -131,7 +129,7 @@ font-size : 14px;
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
             <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
+        
     </div>
     <div class="card1">
         <p>New to GitsX? <a href="SignUp.aspx">Create an account.</a></p>

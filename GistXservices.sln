@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GistXHost", "GistXHost\Gist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GistXclient", "GistXclient\GistXclient.csproj", "{CF0C02CF-5C28-488D-8EBA-F882F1AAE3F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoClient1", "demoClient1\demoClient1.csproj", "{C4AB2D71-3385-4BC7-B5F5-61F63A7188F1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A24B6599-20BD-447D-B499-C41CA26ED635} = {A24B6599-20BD-447D-B499-C41CA26ED635}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +32,10 @@ Global
 		{CF0C02CF-5C28-488D-8EBA-F882F1AAE3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0C02CF-5C28-488D-8EBA-F882F1AAE3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0C02CF-5C28-488D-8EBA-F882F1AAE3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AB2D71-3385-4BC7-B5F5-61F63A7188F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AB2D71-3385-4BC7-B5F5-61F63A7188F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AB2D71-3385-4BC7-B5F5-61F63A7188F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AB2D71-3385-4BC7-B5F5-61F63A7188F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
