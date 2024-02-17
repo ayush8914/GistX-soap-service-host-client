@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GistXservices
 {
-    public class AuthService : IAuthService
+    public class AuthService : IService
     {
         public ResponseContract Register(string username, string email, string password)
         {

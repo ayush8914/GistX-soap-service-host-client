@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace GistXservices
 {
     [ServiceContract]
-    public interface IAuthService
+    public interface IService
     {
         [OperationContract]
         ResponseContract Register(string username, string email,string password);

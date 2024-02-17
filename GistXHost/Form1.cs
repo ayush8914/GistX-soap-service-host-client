@@ -33,7 +33,7 @@ namespace GistXHost
             
             sh.Description.Behaviors.Add(smb);
             sh.AddServiceEndpoint(typeof(IMetadataExchange), MetadataExchangeBindings.CreateMexTcpBinding(), "mex");
-            sh.AddServiceEndpoint(typeof(IAuthService), tcpb, tcpa);
+            sh.AddServiceEndpoint(typeof(IService), tcpb, tcpa);
             sh.Open();
 
             label2.Text = "Service is running";

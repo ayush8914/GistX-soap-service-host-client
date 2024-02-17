@@ -102,7 +102,7 @@
     <Compile Include="Fork.cs" />
     <Compile Include="Gist.cs" />
     <Compile Include="GistUser.cs" />
-    <Compile Include="IAuthService.cs" />
+    <Compile Include="IService.cs" />
     <Compile Include="Migrations\202402151641350_InitialCreate.cs" />
     <Compile Include="Migrations\202402151641350_InitialCreate.designer.cs">
       <DependentUpon>202402151641350_InitialCreate.cs</DependentUpon>
