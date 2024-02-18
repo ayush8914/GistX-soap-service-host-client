@@ -36,6 +36,7 @@ C:\Users\admin\source\repos\GistXservices\GistXservices\bin\Debug\System.ValueTu
 C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.csproj.AssemblyReference.cache
 C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.Migrations.InitialCreate.resources
 C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.Migrations.InitialCreate1.resources
+C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.Migrations.m1.resources
 C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.csproj.GenerateResource.cache
 C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\GistXservices\GistXservices\obj\Debug\GistXservices.csproj.CopyComplete

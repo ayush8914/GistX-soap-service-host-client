@@ -10,6 +10,7 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            MigrationsDirectory = @"Migrations";
         }
 
         protected override void Seed(GistXservices.MyDbContext context)

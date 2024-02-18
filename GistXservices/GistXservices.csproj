@@ -101,6 +101,7 @@
     <Compile Include="AuthService.cs" />
     <Compile Include="Fork.cs" />
     <Compile Include="Gist.cs" />
+    <Compile Include="GistService.cs" />
     <Compile Include="GistUser.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="Migrations\202402151641350_InitialCreate.cs" />
@@ -110,6 +111,10 @@
     <Compile Include="Migrations\202402151727294_InitialCreate1.cs" />
     <Compile Include="Migrations\202402151727294_InitialCreate1.designer.cs">
       <DependentUpon>202402151727294_InitialCreate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402181327189_m1.cs" />
+    <Compile Include="Migrations\202402181327189_m1.designer.cs">
+      <DependentUpon>202402181327189_m1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDbContext.cs" />
@@ -126,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402151727294_InitialCreate1.resx">
       <DependentUpon>202402151727294_InitialCreate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402181327189_m1.resx">
+      <DependentUpon>202402181327189_m1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
